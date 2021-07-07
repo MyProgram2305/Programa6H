@@ -7,6 +7,7 @@
         $errores=$errores+1; 
         $NumeroControl=NULL;
     }else{
+        //K
         $NumeroControl=$_REQUEST['NumeroControl'];
     }
     if(empty($_POST['CURP'])){ 
